@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ plan.description }}{% endblock %}
+
+{% block menu %}
+    <li><a href="{% url 'update_plan' plan.pk %}">Edit</a></li>
+    <li><a href="{% url 'delete_plan' plan.pk %}">Delete</a></li>
+{% endblock %}
+
+{% block content %}
+    <h1>{{ plan.description }}</h1>
+    <p><b>{{ plan.status }}</b> <br> <b>{{ plan.deadline }}</b></p>
+    <div class="pre">{{ article.full_description }}</div>
+{% endblock %}

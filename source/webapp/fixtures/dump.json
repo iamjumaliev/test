@@ -1,0 +1,50 @@
+[
+{
+  "model": "webapp.plan",
+  "pk": 1,
+  "fields": {
+    "description": "make pancakes",
+    "full_description": "buy products for pancakes",
+    "deadline": "2019-09-11",
+    "status": "new"
+  }
+},
+{
+  "model": "webapp.plan",
+  "pk": 2,
+  "fields": {
+    "description": "odsflodskforpkffa",
+    "full_description": "rwqjeartljerwiotjaiorewjtioewat4",
+    "deadline": "2019-09-30",
+    "status": "in_progress"
+  }
+},
+{
+  "model": "webapp.plan",
+  "pk": 3,
+  "fields": {
+    "description": "olololo",
+    "full_description": null,
+    "deadline": null,
+    "status": "in_progress"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$CV5KL3WZHYx1$AACgaRoyRAL6JoJ99XyHidgQ9Uj5pPI/o8et6myBs3Y=",
+    "last_login": "2019-09-10T12:02:41.529Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-10T12:02:26.570Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

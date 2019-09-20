@@ -1,0 +1,40 @@
+[
+{
+  "model": "webapp.plan",
+  "pk": 1,
+  "fields": {
+    "description": "ololololololol",
+    "deadline": "2018-05-22",
+    "status": "new",
+    "full_description": "asfasfasf"
+  }
+},
+{
+  "model": "webapp.plan",
+  "pk": 2,
+  "fields": {
+    "description": "arerew",
+    "deadline": "2019-12-31",
+    "status": "in_progress",
+    "full_description": "asfasfasf"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$AWNmEX7OewMN$TiEjspVaNerfoOnWmNTg+Uyl9uIYmud2SQjkPxShT/I=",
+    "last_login": "2019-09-06T12:31:56.893Z",
+    "is_superuser": true,
+    "username": "emir",
+    "first_name": "",
+    "last_name": "",
+    "email": "emir.jumaliev@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-06T12:30:58.403Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

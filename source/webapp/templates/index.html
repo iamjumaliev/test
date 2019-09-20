@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block menu %}
+
+   <li><a href="{% url 'add_new_plan' %}">Add Plan</a></li>
+
+{% endblock %}
+
+{% block content %}
+
+   <h1>Plans:</h1>
+
+   <hr/>
+
+   {% for plan in plans %}
+
+       <h2>{{ plan.description }}</h2>
+
+       <p>{{ plan.deadline }}</p>
+
+       <p>{{ plan.status }}</p>
+
+       <p><a href="{% url 'plan_view' plan.pk %}">More...</a></p>
+
+       <hr/>
+
+   {% endfor %}
+
+{% endblock %}
+

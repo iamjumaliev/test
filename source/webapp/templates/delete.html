@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Delete Plan{% endblock %}
+
+{% block menu %}
+    <li><a href="{% url 'plan_view' plan.pk %}">View</a></li>
+{% endblock %}
+
+{% block content %}
+    <h1>Are you sure want to delete plan "{{ plan }}"?</h1>
+    <form method="POST" action="{% url 'delete_plan' plan.pk %}" class="text-center">
+        {% csrf_token %}
+        <p><input type="submit" value="Confirm"></p>
+        <p><a href="{% url 'plan_view' plan.pk %}">Cancel</a></p>
+    </form>
+{% endblock %}
